@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ashik Flask test</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename= 'css/bootstrap.css') }}">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="title">Learning flask (this is in layout template not ..</h1>
+			</div>
+		</header>
+
+		{% block content %}
+		{% endblock %}
+
+
+
+	</body>
+</html>
